@@ -31,6 +31,11 @@ from modules import workouts
 from modules import data_management
 from modules import womens_health
 
+def get_mfa() -> str:
+    """Get MFA code from user input"""
+    print("\nGarmin Connect MFA required. Please check your email/phone for the code.")
+    return input("Enter MFA code: ")
+
 # Get credentials from environment
 email = os.environ.get("GARMIN_EMAIL")
 password = os.environ.get("GARMIN_PASSWORD")
@@ -66,7 +71,7 @@ def init_api(email, password):
         )
         try:
             garmin = Garmin(
-                email=email, password=password, is_cn=False  # , prompt_mfa=get_mfa
+                email=email, password=password, is_cn=False, prompt_mfa=get_mfa
             )
             garmin.login()
             # Save Oauth1 and Oauth2 token files to directory for next login
