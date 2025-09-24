@@ -144,8 +144,8 @@ def main():
             """Check Garmin Connect authentication status"""
             return "Garmin Connect authentication failed. Please check your credentials and network connection."
     
-    # Run the MCP server
-    app.run()
+    # Run the MCP server with stdio transport
+    app.run(transport='stdio')
 
 
 if __name__ == "__main__":

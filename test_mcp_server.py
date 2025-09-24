@@ -20,7 +20,7 @@ load_dotenv()
 async def test_mcp_server():
     """Test MCP server by simulating a client connection"""
     # Path to the server script
-    server_script = Path(__file__).parent / "garmin_mcp_server.py"
+    server_script = Path(__file__).parent / "garmin_mcp_server_fixed.py"
 
     if not server_script.exists():
         print(f"ERROR: Server script not found at {server_script}")
