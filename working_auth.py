@@ -18,7 +18,7 @@ def patched_input(prompt=""):
     """Return the known MFA code when prompted."""
     if "MFA" in prompt or "code" in prompt.lower():
         print(f"🤖 Intercepted MFA prompt: {prompt.strip()}")
-        return "000000"  # Known MFA code from Gmail
+        return "111376"  # Latest MFA code from Gmail
     else:
         return builtins.original_input(prompt)
 

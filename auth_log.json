@@ -1,11 +1,5 @@
 [
   {
-    "timestamp": "2025-09-22T14:09:19.397605",
-    "success": false,
-    "method": "fresh_login",
-    "error": "Unexpected title: Enter MFA code for login"
-  },
-  {
     "timestamp": "2025-09-22T14:09:23.651881",
     "success": false,
     "method": "token_validation",
@@ -295,6 +289,12 @@
   },
   {
     "timestamp": "2025-09-24T13:09:26.549737",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T13:24:05.585720",
     "success": false,
     "method": "fresh_login",
     "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
