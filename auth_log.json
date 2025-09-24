@@ -1,0 +1,302 @@
+[
+  {
+    "timestamp": "2025-09-22T14:09:19.397605",
+    "success": false,
+    "method": "fresh_login",
+    "error": "Unexpected title: Enter MFA code for login"
+  },
+  {
+    "timestamp": "2025-09-22T14:09:23.651881",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-22T14:09:26.699126",
+    "success": false,
+    "method": "fresh_login",
+    "error": "Unexpected title: Enter MFA code for login"
+  },
+  {
+    "timestamp": "2025-09-22T17:03:40.448877",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-22T17:03:45.399988",
+    "success": false,
+    "method": "fresh_login",
+    "error": "Unexpected title: Enter MFA code for login"
+  },
+  {
+    "timestamp": "2025-09-22T20:16:39.649152",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-22T20:16:44.224824",
+    "success": false,
+    "method": "fresh_login",
+    "error": "Unexpected title: Enter MFA code for login"
+  },
+  {
+    "timestamp": "2025-09-22T20:21:25.386832",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-22T20:21:30.111072",
+    "success": false,
+    "method": "fresh_login",
+    "error": "Unexpected title: Enter MFA code for login"
+  },
+  {
+    "timestamp": "2025-09-22T20:22:21.142754",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-22T20:22:25.338229",
+    "success": false,
+    "method": "fresh_login",
+    "error": "Unexpected title: Enter MFA code for login"
+  },
+  {
+    "timestamp": "2025-09-22T20:24:37.693722",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-22T20:24:40.999512",
+    "success": false,
+    "method": "fresh_login",
+    "error": "Unexpected title: Enter MFA code for login"
+  },
+  {
+    "timestamp": "2025-09-22T20:26:23.682115",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-22T20:26:27.198977",
+    "success": false,
+    "method": "fresh_login",
+    "error": "Unexpected title: Enter MFA code for login"
+  },
+  {
+    "timestamp": "2025-09-22T22:38:57.988224",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-22T22:39:01.780934",
+    "success": false,
+    "method": "fresh_login",
+    "error": "Unexpected title: Enter MFA code for login"
+  },
+  {
+    "timestamp": "2025-09-23T17:33:56.699136",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T17:34:00.595473",
+    "success": false,
+    "method": "fresh_login",
+    "error": "Unexpected title: Enter MFA code for login"
+  },
+  {
+    "timestamp": "2025-09-23T22:11:28.869314",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T22:11:28.869971",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T22:12:38.686832",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T22:12:38.687303",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T22:15:06.105226",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T22:15:06.105823",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T23:18:42.474822",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T23:18:42.475767",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T23:26:15.794505",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T23:26:15.800687",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T23:28:26.568889",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T23:28:26.569709",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T23:34:06.079074",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-23T23:34:06.079868",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T05:45:02.238140",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T05:45:02.238916",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T05:46:12.404937",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T05:46:12.405891",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T10:29:15.778350",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T10:29:15.779067",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T10:52:37.518951",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T10:52:37.519713",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T11:06:47.462780",
+    "success": false,
+    "method": "token_validation",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T11:06:47.463686",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T11:08:26.681992",
+    "success": false,
+    "method": "token_resume",
+    "error": "Garmin.login() takes from 1 to 2 positional arguments but 3 were given"
+  },
+  {
+    "timestamp": "2025-09-24T11:08:26.683055",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T11:09:50.166073",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T13:00:57.920393",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T13:01:19.975444",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T13:01:33.464083",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  },
+  {
+    "timestamp": "2025-09-24T13:09:26.549737",
+    "success": false,
+    "method": "fresh_login",
+    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+  }
+]

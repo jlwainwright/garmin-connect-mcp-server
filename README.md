@@ -58,6 +58,12 @@ GARMIN_MFA_CODE=123456                    # Manual MFA code entry
 # GARMIN_MFA_WEBHOOK=https://api.com/mfa   # Webhook for automated MFA
 # Or use temporary file: echo "123456" > /tmp/garmin_mfa.txt
 
+# Email-based MFA (Automatic - Recommended)
+EMAIL_USER=your.email@gmail.com
+EMAIL_PASSWORD=your_app_password
+EMAIL_SERVER=imap.gmail.com
+EMAIL_PORT=993
+
 # Notification Settings (Optional)
 NTFY_SERVER=https://ntfy.sh
 NTFY_TOPIC=garmin-notifications
@@ -90,6 +96,70 @@ This will:
 ### Method 2: Headless Authentication
 
 For automated deployments, use one of these methods:
+
+#### Email-based MFA Setup
+
+**Option A: OAuth2 (Recommended - Most Secure)**
+1. **Setup Google Cloud Project:**
+   - Go to [Google Cloud Console](https://console.cloud.google.com/)
+   - Create a new project or select existing one
+   - Enable Gmail API: APIs & Services > Library > Gmail API > Enable
+
+2. **Create OAuth2 Credentials:**
+   - Go to APIs & Services > Credentials
+   - Click "Create Credentials" > "OAuth 2.0 Client IDs"
+   - Choose "Desktop application" as application type
+   - Download the `client_secret.json` file
+
+3. **Configure Environment:**
+   ```bash
+   export EMAIL_USER="your.email@gmail.com"
+   export GOOGLE_CLIENT_SECRET_FILE="/path/to/client_secret.json"
+   export GMAIL_TOKEN_FILE="~/.gmail_token.json"
+   ```
+
+4. **First Run Authorization:**
+   - The first time you run the server, OAuth2 will open a browser for authorization
+   - Grant permission to access your Gmail
+   - Tokens will be saved for future use
+
+**Option B: App Password (Alternative)**
+1. Enable 2FA on your Google account
+2. Generate an App Password: https://myaccount.google.com/apppasswords
+3. Configure environment:
+   ```bash
+   export EMAIL_USER="your.email@gmail.com"
+   export EMAIL_PASSWORD="16_character_app_password"
+   export EMAIL_SERVER="imap.gmail.com"
+   export EMAIL_PORT="993"
+   ```
+
+**Test Email Setup:**
+```bash
+python test_email_mfa.py
+```
+
+**Test OAuth2 Setup:**
+```bash
+python test_oauth2.py
+```
+
+#### Other MFA Methods
+
+**Email-based with OAuth2 (Most Secure - Recommended):**
+```bash
+export EMAIL_USER="your.email@gmail.com"
+export GOOGLE_CLIENT_SECRET_FILE="/path/to/client_secret.json"
+export GMAIL_TOKEN_FILE="~/.gmail_token.json"
+```
+
+**Email-based with App Password:**
+```bash
+export EMAIL_USER="your.email@gmail.com"
+export EMAIL_PASSWORD="your_app_password"  # Use App Password for Gmail
+export EMAIL_SERVER="imap.gmail.com"
+export EMAIL_PORT="993"
+```
 
 **Environment Variable:**
 ```bash
@@ -129,7 +199,9 @@ Add this server configuration:
       "env": {
         "GARMIN_EMAIL": "your.email@example.com",
         "GARMIN_PASSWORD": "your-password",
-        "GARMIN_MFA_CODE": "123456",
+        "EMAIL_USER": "your.email@gmail.com",
+        "GOOGLE_CLIENT_SECRET_FILE": "/path/to/client_secret.json",
+        "GMAIL_TOKEN_FILE": "~/.gmail_token.json",
         "NTFY_SERVER": "https://ntfy.sh",
         "NTFY_TOPIC": "garmin-notifications",
         "NTFY_TOKEN": "your-token"
@@ -282,12 +354,24 @@ Integrated ntfy notifications keep you informed about:
    python headless_auth.py
    ```
 
-2. **Check server startup:**
+2. **Test email MFA functionality:**
+   ```bash
+   source venv/bin/activate
+   python test_email_mfa.py
+   ```
+
+3. **Test OAuth2 Gmail access:**
+   ```bash
+   source venv/bin/activate
+   python test_oauth2.py
+   ```
+
+3. **Check server startup:**
    ```bash
    npx @modelcontextprotocol/inspector venv/bin/python garmin_mcp_server_fixed.py
    ```
 
-3. **Review logs:**
+4. **Review logs:**
    - Authentication: `auth_log.json`
    - Claude Desktop: `~/Library/Logs/Claude/`
    - Server output: Check terminal/console output

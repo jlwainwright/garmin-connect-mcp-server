@@ -1,4 +1,10 @@
+#!/usr/bin/env python3
+"""
+Clean authentication script that removes dummy tokens and performs fresh login.
+"""
+
 import os
+import shutil
 from pathlib import Path
 from dotenv import load_dotenv
 from garminconnect import Garmin, GarminConnectAuthenticationError
@@ -14,26 +20,22 @@ def get_mfa_from_input() -> str:
     print("📧 Please check your email for the verification code.")
     return input("Enter MFA code: ")
 
-def authenticate():
-    """Performs a one-time interactive authentication to generate tokens."""
+def clean_authenticate():
+    """Remove dummy tokens and perform clean authentication."""
     email = os.environ.get("GARMIN_EMAIL")
     password = os.environ.get("GARMIN_PASSWORD")
     tokenstore = os.path.expanduser(os.getenv("GARMINTOKENS", "~/.garminconnect"))
-    backup_store = tokenstore + "_backup"
 
     if not email or not password:
         print("❌ GARMIN_EMAIL and GARMIN_PASSWORD must be set in .env")
         return False
 
-    print("🔄 Starting one-time interactive authentication...")
-
-    # Temporarily move existing tokens aside to force fresh login
+    print("🧹 Cleaning up dummy tokens...")
     if os.path.exists(tokenstore):
-        print(f"📁 Moving existing tokens to {backup_store} for fresh login...")
-        if os.path.exists(backup_store):
-            import shutil
-            shutil.rmtree(backup_store)
-        os.rename(tokenstore, backup_store)
+        shutil.rmtree(tokenstore)
+        print(f"🗑️  Removed {tokenstore}")
+
+    print("🔄 Starting clean authentication...")
 
     try:
         # Initialize with credentials and MFA prompt
@@ -42,44 +44,23 @@ def authenticate():
         # This will trigger the login and MFA prompt if needed
         api.login()
 
-        # Manually save the tokens to ensure they are written
+        # Manually save the tokens
         api.garth.dump(tokenstore)
 
         print("\n✅ Authentication successful!")
         print(f"💾 Tokens have been saved to: {tokenstore}")
-
-        # Clean up backup
-        if os.path.exists(backup_store):
-            import shutil
-            shutil.rmtree(backup_store)
-            print("🗑️  Cleaned up backup tokens")
-
         print("You can now run the main server script: python garmin_mcp_server_fixed.py")
         return True
 
     except (GarthException, GarminConnectAuthenticationError) as e:
         print(f"❌ Authentication failed: {e}")
-        # Restore backup if authentication failed
-        if os.path.exists(backup_store):
-            if os.path.exists(tokenstore):
-                import shutil
-                shutil.rmtree(tokenstore)
-            os.rename(backup_store, tokenstore)
-            print("🔄 Restored original tokens")
         return False
     except Exception as e:
         print(f"❌ An unexpected error occurred: {e}")
-        # Restore backup if authentication failed
-        if os.path.exists(backup_store):
-            if os.path.exists(tokenstore):
-                import shutil
-                shutil.rmtree(tokenstore)
-            os.rename(backup_store, tokenstore)
-            print("🔄 Restored original tokens")
         return False
 
 if __name__ == "__main__":
-    print("🏃‍♂️ Garmin Connect One-Time Setup")
-    print("========================================")
-    print("This script will perform the initial authentication to generate your tokens.")
-    authenticate()
+    print("🧹 Garmin Connect Clean Authentication")
+    print("=======================================")
+    print("This script will remove dummy tokens and perform a clean login.")
+    clean_authenticate()

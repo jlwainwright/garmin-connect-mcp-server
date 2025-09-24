@@ -1,0 +1,8 @@
+{
+    "terminal": {
+        "command": "npx",
+        "args": [
+            "iterm_mcp_server"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "garmin-connect": {
+      "command": "python3",
+      "args": [
+        "garmin_mcp_server_fixed.py"
+      ],
+      "env": {
+        "GARMIN_EMAIL": "jlwainwright@gmail.com",
+        "GARMIN_PASSWORD": "Jlwain@@321",
+        "EMAIL_USER": "jlwainwright@gmail.com",
+        "EMAIL_SERVER": "imap.gmail.com",
+        "EMAIL_PORT": "993",
+        "GOOGLE_CLIENT_SECRET_FILE": "/Users/jacques/DevFolder/mcp_servers/garmin_mcp/client_secret.json",
+        "GMAIL_TOKEN_FILE": "~/.gmail_token.json",
+        "GARMIN_MFA_CODE": "972651",
+        "GARMIN_MFA_WEBHOOK": "https://your-api.com/mfa",
+        "NTFY_SERVER": "https://notify.jacqueswainwright.com",
+        "NTFY_TOPIC": "GarminMCP",
+        "NTFY_TOKEN": "tk_k553wte1t3z8c01g7mfdcbypjim6e",
+        "GARMINTOKENS": "~/.garminconnect",
+        "GARMINTOKENS_BASE64": "~/.garminconnect_base64"
+      }
+    },
+    "terminal": {
+      "command": "npx",
+      "args": [
+        "iterm_mcp_server"
+      ]
+    }
+  }
+}

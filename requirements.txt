@@ -33,3 +33,7 @@ typing_extensions==4.12.2
 urllib3==2.3.0
 uvicorn==0.34.0
 withings-sync==4.2.5
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.126.0
