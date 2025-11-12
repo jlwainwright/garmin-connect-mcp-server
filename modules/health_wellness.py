@@ -283,6 +283,47 @@ def register_tools(app):
             return f"Error retrieving sleep data: {str(e)}"
 
     @app.tool()
+    async def get_sleep_data_range(
+        start_date: str,
+        end_date: str,
+        non_sleep_buffer_minutes: int = 60
+    ) -> str:
+        """Get sleep data for a date range
+        
+        Args:
+            start_date: Start date in YYYY-MM-DD format
+            end_date: End date in YYYY-MM-DD format
+            non_sleep_buffer_minutes: Minutes used to buffer non-sleep events
+        """
+        try:
+            start_dt = datetime.datetime.fromisoformat(start_date)
+            end_dt = datetime.datetime.fromisoformat(end_date)
+            if end_dt < start_dt:
+                return f"Invalid date range: {start_date} to {end_date}"
+        except ValueError:
+            return f"Invalid date format. Expect YYYY-MM-DD for {start_date} to {end_date}"
+
+        try:
+            display_name = getattr(garmin_client, "display_name", None)
+            if not display_name:
+                return "Garmin client not initialized with display name"
+
+            path = f"{garmin_client.garmin_connect_daily_sleep_url}/{display_name}"
+            params = {
+                "fromDate": start_date,
+                "untilDate": end_date,
+                "nonSleepBufferMinutes": non_sleep_buffer_minutes
+            }
+
+            sleep_data = garmin_client.connectapi(path, params=params)
+            if not sleep_data:
+                return f"No sleep data found between {start_date} and {end_date}"
+
+            return sleep_data
+        except Exception as e:
+            return f"Error retrieving sleep data range: {str(e)}"
+
+    @app.tool()
     async def get_stress_data(date: str) -> str:
         """Get stress data
         

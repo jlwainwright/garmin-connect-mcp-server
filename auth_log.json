@@ -1,302 +1,302 @@
 [
   {
-    "timestamp": "2025-09-22T14:09:23.651881",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-22T14:09:26.699126",
-    "success": false,
-    "method": "fresh_login",
-    "error": "Unexpected title: Enter MFA code for login"
-  },
-  {
-    "timestamp": "2025-09-22T17:03:40.448877",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-22T17:03:45.399988",
-    "success": false,
-    "method": "fresh_login",
-    "error": "Unexpected title: Enter MFA code for login"
-  },
-  {
-    "timestamp": "2025-09-22T20:16:39.649152",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-22T20:16:44.224824",
-    "success": false,
-    "method": "fresh_login",
-    "error": "Unexpected title: Enter MFA code for login"
-  },
-  {
-    "timestamp": "2025-09-22T20:21:25.386832",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-22T20:21:30.111072",
-    "success": false,
-    "method": "fresh_login",
-    "error": "Unexpected title: Enter MFA code for login"
-  },
-  {
-    "timestamp": "2025-09-22T20:22:21.142754",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-22T20:22:25.338229",
-    "success": false,
-    "method": "fresh_login",
-    "error": "Unexpected title: Enter MFA code for login"
-  },
-  {
-    "timestamp": "2025-09-22T20:24:37.693722",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-22T20:24:40.999512",
-    "success": false,
-    "method": "fresh_login",
-    "error": "Unexpected title: Enter MFA code for login"
-  },
-  {
-    "timestamp": "2025-09-22T20:26:23.682115",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-22T20:26:27.198977",
-    "success": false,
-    "method": "fresh_login",
-    "error": "Unexpected title: Enter MFA code for login"
-  },
-  {
-    "timestamp": "2025-09-22T22:38:57.988224",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-22T22:39:01.780934",
-    "success": false,
-    "method": "fresh_login",
-    "error": "Unexpected title: Enter MFA code for login"
-  },
-  {
-    "timestamp": "2025-09-23T17:33:56.699136",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T17:34:00.595473",
-    "success": false,
-    "method": "fresh_login",
-    "error": "Unexpected title: Enter MFA code for login"
-  },
-  {
-    "timestamp": "2025-09-23T22:11:28.869314",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T22:11:28.869971",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T22:12:38.686832",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T22:12:38.687303",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T22:15:06.105226",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T22:15:06.105823",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T23:18:42.474822",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T23:18:42.475767",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T23:26:15.794505",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T23:26:15.800687",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T23:28:26.568889",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T23:28:26.569709",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T23:34:06.079074",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-23T23:34:06.079868",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-24T05:45:02.238140",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-24T05:45:02.238916",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-24T05:46:12.404937",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-24T05:46:12.405891",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-24T10:29:15.778350",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-24T10:29:15.779067",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-24T10:52:37.518951",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-24T10:52:37.519713",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-24T11:06:47.462780",
-    "success": false,
-    "method": "token_validation",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-24T11:06:47.463686",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
-  },
-  {
-    "timestamp": "2025-09-24T11:08:26.681992",
-    "success": false,
+    "timestamp": "2025-10-27T08:53:30.101205",
+    "success": true,
     "method": "token_resume",
-    "error": "Garmin.login() takes from 1 to 2 positional arguments but 3 were given"
+    "error": null
   },
   {
-    "timestamp": "2025-09-24T11:08:26.683055",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+    "timestamp": "2025-10-27T08:56:33.862371",
+    "success": true,
+    "method": "token_resume",
+    "error": null
   },
   {
-    "timestamp": "2025-09-24T11:09:50.166073",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+    "timestamp": "2025-10-27T08:57:56.252663",
+    "success": true,
+    "method": "token_resume",
+    "error": null
   },
   {
-    "timestamp": "2025-09-24T13:00:57.920393",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+    "timestamp": "2025-10-27T08:58:25.479661",
+    "success": true,
+    "method": "token_resume",
+    "error": null
   },
   {
-    "timestamp": "2025-09-24T13:01:19.975444",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+    "timestamp": "2025-10-27T09:06:38.303399",
+    "success": true,
+    "method": "token_resume",
+    "error": null
   },
   {
-    "timestamp": "2025-09-24T13:01:33.464083",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+    "timestamp": "2025-10-27T09:15:12.492931",
+    "success": true,
+    "method": "token_resume",
+    "error": null
   },
   {
-    "timestamp": "2025-09-24T13:09:26.549737",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+    "timestamp": "2025-10-27T09:15:24.575134",
+    "success": true,
+    "method": "token_resume",
+    "error": null
   },
   {
-    "timestamp": "2025-09-24T13:24:05.585720",
-    "success": false,
-    "method": "fresh_login",
-    "error": "[Errno 2] No such file or directory: '/Users/jacques/.garminconnect/oauth1_token.json'"
+    "timestamp": "2025-10-27T09:17:36.729411",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-27T09:18:21.892111",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-27T09:18:45.580190",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-27T12:06:02.394909",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-28T07:40:41.787781",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-28T07:41:10.259576",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-28T07:41:59.145539",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-28T07:42:57.039313",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-28T10:41:56.539162",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-28T12:12:20.282674",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-28T13:26:34.554883",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-28T14:32:07.432658",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-28T15:31:35.431127",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-29T21:04:42.729798",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-29T21:04:50.394682",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-29T21:05:58.246625",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-29T21:10:05.934412",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-29T21:12:27.193998",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-29T21:14:07.099553",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-29T21:14:23.559891",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-29T21:14:57.514463",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-29T21:21:28.131828",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-29T22:11:41.612873",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-30T06:22:41.361288",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-30T13:11:37.447369",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-30T14:26:10.389572",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-30T15:58:00.080176",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-30T17:28:15.515729",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-30T17:59:51.524577",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-31T10:00:26.640409",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-31T17:24:54.081754",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-10-31T18:48:47.424825",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-03T00:27:38.564306",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-09T20:44:25.792944",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-09T20:54:01.157290",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-09T21:00:17.108192",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-09T21:00:25.372786",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-10T20:48:20.068552",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-11T06:30:20.893765",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-12T08:32:02.675565",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-12T08:32:12.689822",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-12T09:00:45.034904",
+    "success": true,
+    "method": "token_resume",
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-12T10:09:20.848892",
+    "success": true,
+    "method": "token_resume",
+    "error": null
   }
 ]
